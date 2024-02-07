@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Analytics</title>
+</head>
+<body>
+    <header>
+        <h1>Student Analytics</h1>
+    </header>
+
+    <main>
+        <section id="analytics">
+            <h2>Student Performance Analytics</h2>
+            <!-- Add charts, graphs, and tables here to display analytics -->
+            <div id="charts">
+                <!-- Placeholder for charts -->
+                <p>Charts will be displayed here...</p>
+            </div>
+            <div id="graphs">
+                <!-- Placeholder for graphs -->
+                <p>Graphs will be displayed here...</p>
+            </div>
+            <div id="tables">
+                <!-- Placeholder for tables -->
+                <p>Tables will be displayed here...</p>
+            </div>
+        </section>
+    </main>
+   
+    <h2>Student Results</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Subject 1</td>
+                <td>85</td>
+            </tr>
+            <tr>
+                <td>Subject 2</td>
+                <td>72</td>
+            </tr>
+            <tr>
+                <td>Subject 3</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Subject 4</td>
+                <td>78</td>
+            </tr>
+            <tr>
+                <td>Subject 5</td>
+                <td>95</td>
+            </tr>
+            <tr>
+                <td><strong>Total Marks</strong></td>
+                <td><strong>420</strong></td>
+            </tr>
+            <tr>
+                <td><strong>Grade</strong></td>
+                <td><strong>A</strong></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+
+
+    
+        <p>2024 Student Result Management System</p>
+    
+      <a href="main.html">Go back!</a>
+</body>
+</html>
