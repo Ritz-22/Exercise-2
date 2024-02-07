@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Result Management System</title>
+    <!-- You can link your CSS file here -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Student Result Management System</h1>
+    </header>
+
+    <main>
+        <!-- Form for adding a new student -->
+        <section id="addStudent">
+            <h2>Add New Student</h2>
+            <form id="studentForm">
+                <label for="studentName">Name:</label>
+                <input type="text" id="studentName" name="studentName" required>
+                <label for="studentGrade">Grade:</label>
+                <input type="text" id="studentGrade" name="studentGrade" required>
+                <!-- You can add more fields here as needed -->
+                <button type="submit">Add Student</button>
+            </form>
+        </section>
+
+        <!-- Table to display student results -->
+        <section id="studentResults">
+            <h2>Student Results</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Grade</th>
+                        <!-- Add more table headers as needed -->
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Student results will be dynamically populated here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>2024 Student Result Management System</p>
+    </footer>
+
+    <a href="stu.html">Edit Student</a><br>
+    <a href="del.html">Delete Student</a><br>
+    <a href="search.html">Search Student</a><br>
+    <a href="ana.html">Analytics</a><br>
+    <a href="set.html">Settings</a><br>
+    <a href="about.html">About!</a>
+</body>
+</html>
